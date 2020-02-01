@@ -1,13 +1,21 @@
-html {
-    font-size: 14px;
+*{
+	box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+html{
+	font-size: 14px;
 }
 
-.wrap {
-  display: flex;
-  flex-wrap: wrap;
+body{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style-type: circle;
+}
+
+.wrap{
+	display: flex;
+	flex-wrap: wrap;
 }
